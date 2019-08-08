@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display:flex; 
+	flex-direction: column; 
+	width:  80%; 
+	margin:auto; 
+	padding: 40px 0px; 
+}
+
+
+nav{
+	display:flex; 
+	justify-content: space-around; 
+}
+
+nav a {
+	text-decoration: none; 
+	color: lightgray; 
+}
+.index{
+	font-size: 100px; 
+	text-align: center; 
+}
+
+.servicesh1{
+	font-size: 30px; 
+
+}
+
+button{
+	background: white; 
+	border: 1px solid black; 
+	padding: 10px 50px; 
+	
+}
+
+button a {
+	text-decoration: none; 
+	color: black; 
+}
+
+.column button{
+	border-radius: 5px; 
+}
+.title{
+	display:flex;
+	padding: 80px 0px; 
+	justify-content: space-between;
+	
+}
+.title div {
+	text-align: center; 
+	width: 40%;
+}
+section{
+	padding: 60px 0px; 
+}
+
+.section2, .section3 {
+	display:flex; 
+}
+
+
+
+header, .section3{
+	border-bottom: 1px solid black; 
+}
+
+.contact{
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-between; 
+}
+
+footer{
+	padding-top:30px; 
+	text-align: center; 
+}
+
+
+.services{
+	display:flex; 
+	width:100%; 
+	padding: 20px 0px; 
+	border-bottom: 2px solid black; 
+	justify-content: space-between; 
+}
+.services .column{
+	
+	width: 50%; 
+	margin: 20px 0px; 
+
+}
+.column{
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-between; 
+}
+
+.services .row{
+	border: 1px solid black; 
+	background: lightgray; 
+	padding: 5px 20px; 
+	margin: 10px; 
+	
+}
+
+.row h2, button, p{
+	margin: 10px; 
+}
+
+.services-header-img, middle-img{
+	width:100%; 
+}
+
+.facts{
+	display:flex; 
+}
+
+.facts ul{
+	list-style-type: square; 
+}
