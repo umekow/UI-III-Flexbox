@@ -74,6 +74,13 @@ h1, h2, h3, h4, h5 {
 }
 
 
+/*images*/
+.services-header-img, middle-img{
+	width:100%; 
+}
+
+
+/*nav*/
 nav{
 	display:flex; 
 	justify-content: space-around; 
@@ -83,21 +90,20 @@ nav a {
 	text-decoration: none; 
 	color: lightgray; 
 }
+
+
+/*index html*/
 .index{
 	font-size: 100px; 
 	text-align: center; 
 }
 
-.servicesh1{
-	font-size: 30px; 
 
-}
-
+/*buttons*/
 button{
 	background: white; 
 	border: 1px solid black; 
-	padding: 10px 50px; 
-	
+	padding: 10px 50px; 	
 }
 
 button a {
@@ -108,6 +114,8 @@ button a {
 .column button{
 	border-radius: 5px; 
 }
+
+/* two divs for display title and round image(index.html)*/
 .title{
 	display:flex;
 	padding: 80px 0px; 
@@ -118,6 +126,8 @@ button a {
 	text-align: center; 
 	width: 40%;
 }
+
+/*sections*/
 section{
 	padding: 60px 0px; 
 }
@@ -126,63 +136,68 @@ section{
 	display:flex; 
 }
 
-
-
 header, .section3{
 	border-bottom: 1px solid black; 
 }
 
+
+/*services*/
+.services{
+	display:flex; 
+	width:100%; 
+	padding: 20px 0px; 
+	border-bottom: 2px solid black;
+	justify-content: space-between; 
+	flex-wrap: wrap; 
+}
+
+.services div{
+	border: 1px solid black; 
+	background: lightgray; 
+	padding: 20px; 
+	width: 45%; 
+	margin-bottom: 20px; 
+	
+}
+
+.services button{
+	border-radius: 5px; 
+}
+
+
+/*h1 for services.html*/
+.servicesh1{
+	font-size: 30px; 
+
+}
+
+
+/*contact (index.html)*/
 .contact{
 	display: flex; 
 	flex-direction: column; 
 	justify-content: space-between; 
 }
 
-footer{
-	padding-top:30px; 
-	text-align: center; 
-}
 
-
-.services{
-	display:flex; 
-	width:100%; 
-	padding: 20px 0px; 
-	border-bottom: 2px solid black; 
-	justify-content: space-between; 
-}
-.services .column{
-	
-	width: 50%; 
-	margin: 20px 0px; 
-
-}
-.column{
-	display: flex; 
-	flex-direction: column; 
-	justify-content: space-between; 
-}
-
-.services .row{
-	border: 1px solid black; 
-	background: lightgray; 
-	padding: 5px 20px; 
-	margin: 10px; 
-	
-}
-
-.row h2, button, p{
-	margin: 10px; 
-}
-
-.services-header-img, middle-img{
-	width:100%; 
-}
-
+/*facts (services.html)*/
 .facts{
 	display:flex; 
+	justify-content: space-between; 
 }
 
 .facts ul{
 	list-style-type: square; 
+}
+
+.facts div{
+	display:flex; 
+	flex-direction: column; 
+	justify-content: flex-start; 
+}
+
+/*footer for both pages*/
+footer{
+	padding-top:30px; 
+	text-align: center; 
 }
